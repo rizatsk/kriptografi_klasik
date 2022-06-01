@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(238, 236, 236);    
+}
+
+#preloader{
+  background-color: rgba(0, 0, 0, 0.494);
+  z-index: 99999;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+#bodyContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.body-preloader{
+  top: 45%;
+  left: 45%;
+  position: absolute;
+}
+
+.card{
+    background-color: rgba(24, 21, 21, 0.898);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    max-width: 700px;
+}
+
+.btn-primary{
+    background-color: #4fb10a;
+}
+
+.btn-eksekusi{
+    width: 100%;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-transform: capitalize;
+}
+
+#labelInput,
+#labelReturn{
+    text-transform: capitalize;
+}
+
+.btn-eksekusi:hover{
+    background-color: #4fb10a;
+    border: 1px solid white;
+}
+
+#return_enkripsiOrDekripsi{
+    background: rgb(204, 204, 204);
+}
+
+.btn-switch-left{
+    border-radius: 20px 0 0 20px;
+    font-size: 15px;
+    border: none;
+}
+
+.btn-switch-right{
+    border-radius: 0 20px 20px 0;
+    font-size: 15px;
+    border: none;
+}
+
+.btn-switch-left:hover,
+.btn-switch-right:hover{
+    background-color: #2f7000;
+    border: 1px solid white;
+}
+
+.btn-activerz{
+    background-color: #2f7000;
+    border: 0.2px double rgb(184, 184, 184);
+}
+
+.btn-primary:focus,  
+.btn-primary:active, 
+.btn-primary:visited{
+    background-color: #2f7000;
+    box-shadow: none;
+    border: 0.2px double white;
+}
+
+#buttonCopy{
+    color: #4fb10a;
+}
+
+#buttonCopy:hover{
+    color: #4fb10a;
+    transform: scale(1.2);
+}
+
+#buttonCopy:active{
+    color: #2f7000;
+    transform: scale(1);
+}
+
+#copied{
+    padding-top: 7px;
+    font-size: 13px;
+    color: rgb(189, 189, 189);
+}
+/* Card Kelompok */
+.header-kelompok{
+    text-align: center;
+    padding-top: 10px;
+}
+
